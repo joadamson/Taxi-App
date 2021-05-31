@@ -628,6 +628,18 @@ body {
     .card-slide-header p {
         font-size: 15px;
     }
+
+    .sidebar {
+        padding-bottom: 10px !important;
+    }
+
+    .conditions {
+        padding-bottom: 10px !important;
+    }
+
+    .requirements {
+        padding-bottom: 10px !important;
+    }
 }
 
 @media screen and (max-width: 450px) {
