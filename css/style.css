@@ -630,14 +630,17 @@ body {
     }
 
     .sidebar {
+        min-height: 60vh;
         padding-bottom: 10px !important;
     }
 
     .conditions {
+        min-height: 60vh;
         padding-bottom: 10px !important;
     }
 
     .requirements {
+        min-height: 60vh;
         padding-bottom: 10px !important;
     }
 }
