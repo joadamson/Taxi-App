@@ -589,6 +589,7 @@ body {
     .slick-slide {
         width: 400px;
         height: 260px !important;
+        border-radius: 0px;
     }
     
     .slide img {
