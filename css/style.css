@@ -643,6 +643,12 @@ body {
         min-height: 60vh;
         padding-bottom: 10px !important;
     }
+    .container:hover > .promo-card:not(:hover) {
+        filter: blur(0px);
+    }
+    .slick-slider button {
+        display: none !important;
+    }
 }
 
 @media screen and (max-width: 450px) {
