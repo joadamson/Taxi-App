@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.request {
+    background: #15171B;
+}
+
+.form {
+    width: 100%;
+    min-height: 100vh;
+    background: #F4F5F7;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+}
+
+.title {
+    font-size: 60px;
+    color: #fff;
+}
+
+.go-back {
+    color: #fff;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+.go-back i {
+    font-size: 20px;
+}
+
+.go-back:hover {
+    color: #666768;
+}
+
+.form .container .mb-3 .text-title span {
+    color: #ff0000;
+}
+
+.star {
+    font-size: 20px;
+    color: #ff0000;
+}
+
+.text-title {
+    color: #4A545E;
+}
+
+.input-text {
+    font-size: 18px;
+    color: #4A545E;
+}
+
+.inputs {
+    width: 60%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    outline: none;
+}
+
+.right-col {
+    margin-left: 67px;
+}
+
+.star span {
+    text-decoration: underline;
+}
+
+.file-upload {
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06),
+               0 0 20px 8px rgba(0,0,0,0.06);
+    outline: none;
+}
+
+@media screen and (max-width: 1200px){
+    .title {
+        font-size: 50px;
+    }
+    .right-col {
+        margin-left: 57px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .text-title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .title {
+        font-size: 40px;
+    }
+    
+    .right-col {
+        margin-left: 0px !important;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .title {
+        font-size: 30px;
+    }
+    .go-back {
+        font-size: 16px;
+    }
+    .text-title {
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .text-title {
+        text-align: center;
+    }
+    .go-back span {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .form {
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .title {
+        font-size: 18px;
+    }
+    .vin-requirements {
+        font-size: 16px;
+    }
+    .end-text {
+        display: none;
+    }
+    .agree {
+        font-size: 16px;
+    }
+}
