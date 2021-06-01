@@ -151,4 +151,8 @@ body {
     .agree {
         font-size: 14px;
     }
+    #agree {
+        width: 16px;
+        height: 16px;
+    }
 }
