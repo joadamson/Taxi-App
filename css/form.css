@@ -149,12 +149,6 @@ body {
         display: none;
     }
     .agree {
-        font-size: 16px;
-    }
-    .end-block {
-        justify-content: space-between;
-    }
-    .end-block input {
-        margin: 0px !important;
+        font-size: 14px;
     }
 }
